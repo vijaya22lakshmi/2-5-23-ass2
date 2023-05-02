@@ -1,0 +1,7 @@
+list=[]
+num=int(input(" enter no.of elements in list "))
+for i in range(1,num + 1):
+    value=int(input("please enter the Value of %d Element : " %i ))
+    list.append(value)
+print("min:",min(list))
+print("max:",max(list))
